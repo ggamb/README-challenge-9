@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// TODO: Create an array of questions for user input
+// Creates an array of questions for user input
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -89,7 +89,7 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Please pick a license you would like to use',
-        choices: ["MIT", "Mozilla", "Common Development and Distribution", "GNU General Public"]
+        choices: ["MIT", "Mozilla", "GNU General Public"]
       },
       {
         type: 'input',
@@ -103,6 +103,19 @@ const promptUser = () => {
             return false;
           }
         }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address',
+        validate: emailInput => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log('Please enter your email!');
+            return false;
+          }
+        }
       }
     ])
     .then(answer => {
@@ -110,7 +123,7 @@ const promptUser = () => {
     })
 };
 
-// TODO: Create a function to write README file
+//Creates a function to write README file
 const writeToFile = data => {
     const fileName = "README.md";
 
@@ -121,7 +134,7 @@ const writeToFile = data => {
     })
 }
 
-// TODO: Create a function to initialize app
+// Creates a function to initialize app
 const init = () => {
     console.log("we are here");
     promptUser()

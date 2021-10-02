@@ -1,60 +1,83 @@
-const { makeBadge, ValidationError } = require('badge-maker');
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Creates a function that returns a license badge based on which license is passed in
+// If there is no license, returns an empty string
 const renderLicenseBadge = license => {
   if(license === undefined) {
     return "";
+  } else if (license === "MIT") {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)`
+  } else if (license === "Mozilla"){
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   } else {
-    const format = {
-      label: "License",
-      message: license,
-      labelColor: "red",
-    }
-
-    const svg = makeBadge(format);
-    return svg;
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   }
 }
 
-// TODO: Create a function that returns the license link
+//Function that returns the license link
 // If there is no license, return an empty string
 const renderLicenseLink = license => {
-
+  if(license === undefined) {
+    return "";
+  } else if (license === "MIT") {
+    return `[license](https://opensource.org/licenses/MIT)`
+  } else if (license === "Mozilla"){
+    return `[license](https://www.mozilla.org/en-US/MPL/)`
+  } else {
+    return `[license](https://www.gnu.org/licenses/licenses.en.html)`
+  }
 }
 
-// TODO: Create a function that returns the license section of README
+// Function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = license => {
-
+  if(license === undefined) {
+    return "";
+  } else if (license === "MIT") {
+    return `This project is licensed under the MIT License. For the full license see this link: ${renderLicenseLink(license)}`
+  } else if (license === "Mozilla"){
+    return `This project is licensed under the Mozilla Public License. For the full license see this link: ${renderLicenseLink(license)}`
+  } else {
+    return `This project is licensed under the GNU General Public License. For the full license see this link: ${renderLicenseLink(license)}`
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
   return `# ${data.title}
-          ## Description
-          ${data.description}
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-          ## Table of Contents 
+## Description
+${data.description}
 
-          ## Installation
-          ${data.install}
+## Installation
+${data.install}
 
-          ## Usage
-          ${data.usage}
+## Usage
+${data.usage}
 
-          ## License
-          ${renderLicenseBadge(data.license)}
-          ${renderLicenseLink(data.license)}
-          ${renderLicenseSection(data.license)}
-          
-          ## Contributing
-          ${data.contribute}
+## License
+${renderLicenseBadge(data.license)}
 
-          ## Tests
-          ${data.testing}
+Copyright 2021 ${data.user}
 
-          ## Questions
-          ${data.usage}
+${renderLicenseSection(data.license)}
+
+## Contributing
+
+Additional information on contributing:
+
+${data.contribute}
+
+## Tests
+${data.testing}
+
+## Questions
+Have any questions or want to contribute? Feel free to email me here: [email](${data.email})
 `;
 }
 
