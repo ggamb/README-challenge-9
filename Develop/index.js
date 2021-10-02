@@ -98,21 +98,35 @@ const promptUser = () => {
           if (nameInput) {
             return true;
           } else {
-            console.log('Please enter how to test your project!');
+            console.log('Please enter your Github username!');
             return false;
           }
         }
       }
-    ]);
+    ])
+    .then(answer => {
+        return answer;
+    })
 };
 
-promptUser();
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = data => {
+    const fileName = "README.md";
+
+    const pageHTML = generateMarkdown(data);
+
+    fs.writeFile(fileName, pageHTML, err => {
+        if(err) throw new Error(err);
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    console.log("we are here");
+    promptUser()
+    .then(writeToFile);
+}
 
 // Function call to initialize app
 init();
