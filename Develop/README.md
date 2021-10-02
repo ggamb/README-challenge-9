@@ -1,4 +1,4 @@
-# dfgsd
+# README project
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -8,27 +8,29 @@
 * [Questions](#questions)
 
 ## Description
-gsdgsd
+This repo contains a Node.js projet to create a README based on user input
 
 ## Installation
-fgsdfgsd
+Install this and that and go
 
 ## Usage
-fgdsfgsd
+Use it however you want
 
 ## License
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-Copyright 2021 dsfgdsfgsdg
-This projcet is licensed under the Mozilla Public License. For the full license see this link: [license](https://www.mozilla.org/en-US/MPL/)
+Copyright 2021 ggamb
+
+This project is licensed under the MIT License. For the full license see this link: [License](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
 Additional information on contributing:
-fgsdfgsdf
+
+Please contribute to this project if you want
 
 ## Tests
-gsdfgsdfg
+Test frequently!
 
 ## Questions
-Have any questions or want to contribute? Feel free to email me here: [email](dfgdg)
+Have any questions or want to contribute? Feel free to email me here: [Email](censored@gmail.com)

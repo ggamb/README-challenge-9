@@ -62,7 +62,7 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'contribute',
-        message: 'Enter your contribution guidlines',
+        message: 'Enter your contribution guidelines',
         validate: contributeInput => {
           if (contributeInput) {
             return true;

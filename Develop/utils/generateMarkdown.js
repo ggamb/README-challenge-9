@@ -20,9 +20,9 @@ const renderLicenseLink = license => {
   } else if (license === "MIT") {
     return `[license](https://opensource.org/licenses/MIT)`
   } else if (license === "Mozilla"){
-    return `[license](https://www.mozilla.org/en-US/MPL/)`
+    return `[license](https://opensource.org/licenses/MPL-2.0)`
   } else {
-    return `[license](https://www.gnu.org/licenses/licenses.en.html)`
+    return `[license](https://opensource.org/licenses/lgpl-3.0.html)`
   }
 }
 
