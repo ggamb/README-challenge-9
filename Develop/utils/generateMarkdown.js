@@ -12,7 +12,7 @@ const renderLicenseBadge = license => {
     }
 
     const svg = makeBadge(format);
-    console.log(svg);
+    return svg;
   }
 }
 
