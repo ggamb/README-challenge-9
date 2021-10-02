@@ -10,11 +10,11 @@ const promptUser = () => {
         type: 'input',
         name: 'title',
         message: 'What is your project title?',
-        validate: nameInput => {
-          if (nameInput) {
+        validate: titleInput => {
+          if (titleInput) {
             return true;
           } else {
-            console.log('Please enter your projec title!');
+            console.log('Please enter your project title!');
             return false;
           }
         }
@@ -83,10 +83,30 @@ const promptUser = () => {
             return false;
           }
         }
+      },
+      {
+        type: 'list',
+        name: 'license',
+        message: 'Please pick a license you would like to use',
+        choices: ["MIT", "Mozilla", "Common Development and Distribution", "GNU General Public"]
+      },
+      {
+        type: 'input',
+        name: 'user',
+        message: 'Enter your Github username',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log('Please enter how to test your project!');
+            return false;
+          }
+        }
       }
     ]);
 };
 
+promptUser();
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
