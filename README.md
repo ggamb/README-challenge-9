@@ -30,6 +30,7 @@ If you would like to contribute, feel free.
 ## Tests
 Test this as you please.
 
-## Questions
+## Questions?
 My Github: [Github](https://github.com/ggamb)
+
 Have any questions or want to contribute? Feel free to email me here: [email](redacted@gmail.com)
