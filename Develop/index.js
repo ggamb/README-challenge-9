@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
 // TODO: Create an array of questions for user input
 const promptUser = () => {
     return inquirer.prompt([
@@ -60,7 +61,7 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'contribution',
+        name: 'contribute',
         message: 'Enter your contribution guidlines',
         validate: contributeInput => {
           if (contributeInput) {
@@ -108,7 +109,6 @@ const promptUser = () => {
         return answer;
     })
 };
-
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
