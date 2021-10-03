@@ -18,14 +18,14 @@ Once they are installed, simply nagivate to the correct directoy, open the conso
 ## Usage
 See this video for an example for how to use this README generator:
 
-https://user-images.githubusercontent.com/86434738/135735341-c9045a8c-08e4-4109-9221-0f67d71dd88b.mp4
+https://user-images.githubusercontent.com/86434738/135735375-10e42b36-0882-4bfa-aec6-da8fc89e6d73.mp4
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 Copyright 2021 ggamb
 
-This project is licensed under the MIT License. For the full license see this link: [license](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT License. For the full license see this [link](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
@@ -37,4 +37,4 @@ Test this as you please.
 ## Questions?
 My Github: [Github](https://github.com/ggamb)
 
-Have any questions or want to contribute? Feel free to email me here: [email](redacted@gmail.com)
+Have any questions or want to contribute? Feel free to send me an email [here](redacted@gmail.com)
