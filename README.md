@@ -8,12 +8,14 @@
 * [Questions](#questions)
 
 ## Description
-This project involves taking existing code provided by the Universtity of Texas at Austin Coding Bootcamp and refactoring it into README generator. In this project, I used Node.js and ES6 to create a skeleton of a README based on a user's project, details about the project, and github information. In fact, my first commit to this README was made using my own code :)
+This project involves taking existing code provided by the Universtity of Texas at Austin Coding Bootcamp and refactoring it into README generator. In this project, I used Node.js and ES6 to create a skeleton of a README based on a user's project, details about the project, and github information. After answering the questions, a file titled "README.md" will appear with your generated README file.
+
+See the video below for an illustrative demonstration of how to use this code. The README created in the demo video was the basis for the README in this project!
 
 ## Installation
-To install this project, you must install [Node.js](https://nodejs.org/en/) and [Inquirer](https://www.npmjs.com/package/inquirer).
+To install this project, you must install [Node.js](https://nodejs.org/en/) and [Inquirer](https://www.npmjs.com/package/inquirer). See their respective documentation to ensure that they are installed correctly.
 
-Once they are installed, simply nagivate to the correct directoy, open the console and type "node index" to run the code.
+Once they are properly installed, clone the code, navigate to the correct directory, open the terminal, and type "node index" to run the code.
 
 ## Usage
 See this video for an example for how to use this README generator:
