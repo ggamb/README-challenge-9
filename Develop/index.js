@@ -136,7 +136,6 @@ const writeToFile = data => {
 
 // Creates a function to initialize app
 const init = () => {
-    console.log("we are here");
     promptUser()
     .then(writeToFile);
 }
