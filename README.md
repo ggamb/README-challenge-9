@@ -20,7 +20,7 @@ Once they are properly installed, clone the code, navigate to the correct direct
 ## Usage
 See this video for an example for how to use this README generator:
 
-https://user-images.githubusercontent.com/86434738/135735375-10e42b36-0882-4bfa-aec6-da8fc89e6d73.mp4
+https://user-images.githubusercontent.com/86434738/135735893-ec9d2051-cafb-4841-881f-9757cc3f7f6a.mp4
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
