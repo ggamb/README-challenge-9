@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/coding-boot-camp/potential-enigma/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme"
+  "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  }
 }
