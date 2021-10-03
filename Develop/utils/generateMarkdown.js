@@ -1,4 +1,4 @@
-// Creates a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 // If there is no license, returns an empty string
 const renderLicenseBadge = license => {
   if(license === undefined) {
@@ -40,7 +40,7 @@ const renderLicenseSection = license => {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 const generateMarkdown = data => {
   return `# ${data.title}
 ## Table of Contents
@@ -69,14 +69,14 @@ ${renderLicenseSection(data.license)}
 
 ## Contributing
 
-Additional information on contributing:
-
 ${data.contribute}
 
 ## Tests
 ${data.testing}
 
-## Questions
+## Questions?
+My Github: [Github](https://github.com/${data.user})
+
 Have any questions or want to contribute? Feel free to email me here: [email](${data.email})
 `;
 }

@@ -1,4 +1,4 @@
-# README project
+# README-challenge-9
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -8,29 +8,29 @@
 * [Questions](#questions)
 
 ## Description
-This repo contains a Node.js projet to create a README based on user input
+This project involves taking existing code provided by the Universtity of Texas at Austin Coding Bootcamp and turning it into README generator.
 
 ## Installation
-Install this and that and go
+To install this project, you must install Node and the following packages:
 
 ## Usage
-Use it however you want
+Use this however you would like!
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 Copyright 2021 ggamb
 
-This project is licensed under the MIT License. For the full license see this link: [License](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT License. For the full license see this link: [license](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
-Additional information on contributing:
-
-Please contribute to this project if you want
+If you would like to contribute, feel free.
 
 ## Tests
-Test frequently!
+Test this as you please.
 
-## Questions
-Have any questions or want to contribute? Feel free to email me here: [Email](censored@gmail.com)
+## Questions?
+My Github: [Github](https://github.com/ggamb)
+
+Have any questions or want to contribute? Feel free to email me here: [email](redacted@gmail.com)
